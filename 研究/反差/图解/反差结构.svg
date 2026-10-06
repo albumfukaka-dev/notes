@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">
+  <rect width="720" height="380" fill="#faf8f3"/>
+  <text x="360" y="34" text-anchor="middle" font-size="18" fill="#222" font-weight="600">反差的完整结构：打破 + 修复</text>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+  <!-- boxes -->
+  <g font-size="15" text-anchor="middle">
+    <rect x="30" y="80" width="140" height="70" rx="10" fill="#eceae4" stroke="#bbb"/>
+    <text x="100" y="112" fill="#333" font-weight="600">建立预期</text>
+    <text x="100" y="134" font-size="12" fill="#666">观众的默认</text>
+
+    <rect x="205" y="80" width="140" height="70" rx="10" fill="#f6d5cf" stroke="#c0392b"/>
+    <text x="275" y="112" fill="#a93226" font-weight="600">打破预期</text>
+    <text x="275" y="134" font-size="12" fill="#a93226">"嗯？"</text>
+
+    <rect x="380" y="80" width="140" height="70" rx="10" fill="#d6e4f0" stroke="#2e6da4"/>
+    <text x="450" y="112" fill="#1f4e79" font-weight="600">寻找解释</text>
+    <text x="450" y="134" font-size="12" fill="#1f4e79">"为什么？"</text>
+
+    <rect x="555" y="80" width="140" height="70" rx="10" fill="#d5ecd4" stroke="#2e8b57"/>
+    <text x="625" y="112" fill="#1e6b3e" font-weight="600">修复预期</text>
+    <text x="625" y="134" font-size="12" fill="#1e6b3e">"原来如此！"</text>
+  </g>
+  <g stroke="#888" stroke-width="2" marker-end="url(#a)">
+    <line x1="172" y1="115" x2="202" y2="115"/>
+    <line x1="347" y1="115" x2="377" y2="115"/>
+    <line x1="522" y1="115" x2="552" y2="115"/>
+  </g>
+  <!-- mapping -->
+  <g font-size="14" text-anchor="middle">
+    <text x="100" y="200" fill="#666">铺垫</text>
+    <text x="275" y="200" fill="#a93226" font-weight="600">钩子 · What</text>
+    <text x="450" y="200" fill="#1f4e79" font-weight="600">情节 · Why</text>
+    <text x="625" y="200" fill="#1e6b3e" font-weight="600">洞察 · How</text>
+  </g>
+  <g font-size="12" text-anchor="middle" fill="#777">
+    <text x="275" y="222">抓住注意</text>
+    <text x="450" y="222">留住观众</text>
+    <text x="625" y="222">让人转发、记住你</text>
+  </g>
+  <!-- arc from insight back to hook -->
+  <path d="M 625 240 C 600 295, 300 295, 275 240" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <text x="450" y="328" text-anchor="middle" font-size="13" fill="#a93226">创作时倒着来：先有洞察，把它翻过来，就是钩子</text>
+  <text x="360" y="362" text-anchor="middle" font-size="11" fill="#999">依据：亚里士多德"出乎意料而又因果相连"；Suls 两阶段模型；希思兄弟"打破猜测机器再修好"</text>
+</svg>

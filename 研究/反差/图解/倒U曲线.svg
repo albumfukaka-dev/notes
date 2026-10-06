@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">
+  <rect width="640" height="400" fill="#faf8f3"/>
+  <text x="320" y="34" text-anchor="middle" font-size="18" fill="#222" font-weight="600">反差的剂量：倒 U 曲线</text>
+  <!-- axes -->
+  <line x1="70" y1="330" x2="600" y2="330" stroke="#555" stroke-width="1.5"/>
+  <line x1="70" y1="330" x2="70" y2="60" stroke="#555" stroke-width="1.5"/>
+  <polygon points="600,330 590,325 590,335" fill="#555"/>
+  <polygon points="70,60 65,70 75,70" fill="#555"/>
+  <text x="590" y="355" text-anchor="end" font-size="13" fill="#555">反差强度（偏离预期的程度）→</text>
+  <text x="58" y="70" text-anchor="end" font-size="13" fill="#555" transform="rotate(-90 58 70)">喜欢 / 留存 →</text>
+  <!-- sweet spot band -->
+  <rect x="260" y="60" width="130" height="270" fill="#f2c94c" opacity="0.18"/>
+  <!-- curve -->
+  <path d="M 80 300 C 200 280, 250 90, 325 90 S 470 240, 590 315" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- labels -->
+  <text x="118" y="222" text-anchor="middle" font-size="14" fill="#333">太小</text>
+  <text x="118" y="240" text-anchor="middle" font-size="12" fill="#777">没人停下</text>
+  <text x="325" y="78" text-anchor="middle" font-size="14" fill="#333" font-weight="600">最佳区</text>
+  <text x="325" y="120" text-anchor="middle" font-size="12" fill="#555">一眼看懂</text>
+  <text x="325" y="137" text-anchor="middle" font-size="12" fill="#555">一下想不通</text>
+  <text x="550" y="215" text-anchor="middle" font-size="14" fill="#333">太大</text>
+  <text x="550" y="233" text-anchor="middle" font-size="12" fill="#777">看不懂、被冒犯</text>
+  <text x="320" y="388" text-anchor="middle" font-size="11" fill="#999">依据：冯特 / 伯莱因 倒 U；Mandler 适度不一致；罗维 MAYA</text>
+</svg>
